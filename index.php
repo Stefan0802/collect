@@ -12,6 +12,6 @@ $records =
     ];
 
 
-collection($records)->each(function ($value, $key, $arg) {
+collection($records)->each(function ($value, $key, $arg): void {
 var_dump($value,$key,$arg);
 }, 1000);

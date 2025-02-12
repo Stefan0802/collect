@@ -1,25 +1,17 @@
 {
-  "name": "jurapro/collect",
-  "description": "Module for working with arrays ",
-  "type": "library",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "jurapro",
-      "email": "jurapro@yandex.ru"
-    }
-  ],
-  "minimum-stability": "dev",
-  "require": {
-    "php": "^7.4 | ^8.0",
-    "phpunit/phpunit": "*"
-  },
-  "autoload": {
-    "psr-4": {
-      "Collect\\": "src/"
+    "name": "stepan/collect",
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        }
     },
-    "files": [
-      "src/helpers.php"
-    ]
-  }
+    "authors": [
+        {
+            "name": "Stefan0802",
+            "email": "stpa.leonov@mail.ru"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
 }

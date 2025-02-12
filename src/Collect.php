@@ -104,10 +104,9 @@ class Collect
         return $this;
     }
 
-    public function shift(): Collect
+    public function shift()
     {
-        array_shift($this->array);
-        return $this;
+        return array_shift($this->array); 
     }
 
     public function pop(): Collect
